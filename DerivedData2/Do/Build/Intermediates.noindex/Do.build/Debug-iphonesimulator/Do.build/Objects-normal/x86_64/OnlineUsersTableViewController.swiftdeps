@@ -1,0 +1,973 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OnlineUsersTableViewController"
+provides-nominal:
+- "2Do30OnlineUsersTableViewControllerC"
+provides-member:
+- ["2Do30OnlineUsersTableViewControllerC", ""]
+provides-dynamic-lookup:
+- "preferredStatusBarStyle"
+- "signoutButtonPressed"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "Auth"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "Database"
+- "IndexPath"
+- "Int"
+- "OnlineUsersTableViewController"
+- "String"
+- "UIStatusBarStyle"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "subscript"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "currentUser"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "remove"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "deleteRows"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "insertRows"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- !private ["s7CVarArgP", "Auth"]
+- ["s7CVarArgP", "Database"]
+- !private ["s7CVarArgP", "IndexPath"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "currentUsers"]
+- ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "deleteRows"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertRows"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "print"]
+- ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "userCell"]
+- !private ["s7CVarArgP", "usersRef"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- ["s28CustomDebugStringConvertibleP", "Database"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUsers"]
+- ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteRows"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertRows"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "userCell"]
+- !private ["s28CustomDebugStringConvertibleP", "usersRef"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deleteRows"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insertRows"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- ["s23CustomStringConvertibleP", "Database"]
+- !private ["s23CustomStringConvertibleP", "IndexPath"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "currentUsers"]
+- ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "deleteRows"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertRows"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "userCell"]
+- !private ["s23CustomStringConvertibleP", "usersRef"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["So16FIRDataEventTypeV", "childAdded"]
+- !private ["So16FIRDataEventTypeV", "childRemoved"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["So15FIRDataSnapshotC", "value"]
+- ["So11FIRDatabaseC", "database"]
+- ["So11FIRDatabaseC", "reference"]
+- !private ["So16FIRDatabaseQueryC", "observe"]
+- !private ["So16FIRDatabaseQueryC", "removeValue"]
+- !private ["So20FIRDatabaseReferenceC", "observe"]
+- !private ["So20FIRDatabaseReferenceC", "removeValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "deleteRows"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "insertRows"]
+- !private ["Se", "remove"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "deleteRows"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "insertRows"]
+- !private ["SE", "remove"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Auth"]
+- ["SQ", "Database"]
+- !private ["SQ", "IndexPath"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "childAdded"]
+- !private ["SQ", "childRemoved"]
+- !private ["SQ", "count"]
+- !private ["SQ", "currentUser"]
+- !private ["SQ", "currentUsers"]
+- ["SQ", "database"]
+- !private ["SQ", "deleteRows"]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "fade"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertRows"]
+- !private ["SQ", "lightContent"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "print"]
+- ["SQ", "reference"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "row"]
+- !private ["SQ", "signOut"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tableView"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textLabel"]
+- !private ["SQ", "top"]
+- !private ["SQ", "uid"]
+- !private ["SQ", "userCell"]
+- !private ["SQ", "usersRef"]
+- !private ["SQ", "value"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "deleteRows"]
+- !private ["s23ExpressibleByNilLiteralP", "insertRows"]
+- !private ["SH", "Auth"]
+- ["SH", "Database"]
+- !private ["SH", "IndexPath"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "auth"]
+- !private ["SH", "childAdded"]
+- !private ["SH", "childRemoved"]
+- !private ["SH", "count"]
+- !private ["SH", "currentUser"]
+- !private ["SH", "currentUsers"]
+- ["SH", "database"]
+- !private ["SH", "deleteRows"]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "fade"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "insertRows"]
+- !private ["SH", "lightContent"]
+- !private ["SH", "observe"]
+- !private ["SH", "print"]
+- ["SH", "reference"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "row"]
+- !private ["SH", "signOut"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tableView"]
+- !private ["SH", "text"]
+- !private ["SH", "textLabel"]
+- !private ["SH", "top"]
+- !private ["SH", "uid"]
+- !private ["SH", "userCell"]
+- !private ["SH", "usersRef"]
+- !private ["SH", "value"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "init"]
+- !private ["SM", "remove"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "Auth"]
+- ["So8NSCodingP", "Database"]
+- !private ["So8NSCodingP", "IndexPath"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "currentUsers"]
+- !private ["So8NSCodingP", "deleteRows"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertRows"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "userCell"]
+- !private ["So8NSCodingP", "usersRef"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- ["So26NSExtensionRequestHandlingP", "Database"]
+- !private ["So26NSExtensionRequestHandlingP", "IndexPath"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "currentUsers"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "userCell"]
+- !private ["So26NSExtensionRequestHandlingP", "usersRef"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "Database"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIStatusBarStyle"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "currentUser"]
+- ["So8NSObjectC", "currentUsers"]
+- ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "deleteRows"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertRows"]
+- !private ["So8NSObjectC", "observe"]
+- ["So8NSObjectC", "preferredStatusBarStyle"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "removeValue"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "signoutButtonPressed"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textLabel"]
+- !private ["So8NSObjectC", "uid"]
+- ["So8NSObjectC", "userCell"]
+- ["So8NSObjectC", "usersRef"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Auth"]
+- ["So8NSObjectP", "Database"]
+- !private ["So8NSObjectP", "IndexPath"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "currentUser"]
+- !private ["So8NSObjectP", "currentUsers"]
+- ["So8NSObjectP", "database"]
+- !private ["So8NSObjectP", "deleteRows"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertRows"]
+- !private ["So8NSObjectP", "observe"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "reference"]
+- !private ["So8NSObjectP", "removeValue"]
+- !private ["So8NSObjectP", "signOut"]
+- !private ["So8NSObjectP", "tableView"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textLabel"]
+- !private ["So8NSObjectP", "uid"]
+- !private ["So8NSObjectP", "userCell"]
+- !private ["So8NSObjectP", "usersRef"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["2Do30OnlineUsersTableViewControllerC", "AnyObject"]
+- !private ["2Do30OnlineUsersTableViewControllerC", "Auth"]
+- ["2Do30OnlineUsersTableViewControllerC", "Database"]
+- ["2Do30OnlineUsersTableViewControllerC", "IndexPath"]
+- ["2Do30OnlineUsersTableViewControllerC", "Int"]
+- ["2Do30OnlineUsersTableViewControllerC", "String"]
+- ["2Do30OnlineUsersTableViewControllerC", "UIStatusBarStyle"]
+- ["2Do30OnlineUsersTableViewControllerC", "UITableView"]
+- ["2Do30OnlineUsersTableViewControllerC", "UITableViewCell"]
+- ["2Do30OnlineUsersTableViewControllerC", "currentUsers"]
+- ["2Do30OnlineUsersTableViewControllerC", "deinit"]
+- !private ["2Do30OnlineUsersTableViewControllerC", "dismiss"]
+- ["2Do30OnlineUsersTableViewControllerC", "init"]
+- ["2Do30OnlineUsersTableViewControllerC", "preferredStatusBarStyle"]
+- !private ["2Do30OnlineUsersTableViewControllerC", "print"]
+- ["2Do30OnlineUsersTableViewControllerC", "signoutButtonPressed"]
+- ["2Do30OnlineUsersTableViewControllerC", "tableView"]
+- ["2Do30OnlineUsersTableViewControllerC", "userCell"]
+- ["2Do30OnlineUsersTableViewControllerC", "usersRef"]
+- ["2Do30OnlineUsersTableViewControllerC", "viewDidLoad"]
+- !private ["Sq", "deleteRows"]
+- !private ["Sq", "insertRows"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "childAdded"]
+- !private ["SY", "childRemoved"]
+- !private ["SY", "fade"]
+- !private ["SY", "lightContent"]
+- !private ["SY", "top"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["So23UITableViewRowAnimationV", "fade"]
+- !private ["So23UITableViewRowAnimationV", "top"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "remove"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "deleteRows"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "insertRows"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "deleteRows"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "insertRows"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- ["So21UIAppearanceContainerP", "Database"]
+- !private ["So21UIAppearanceContainerP", "IndexPath"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "currentUsers"]
+- !private ["So21UIAppearanceContainerP", "deleteRows"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "insertRows"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "userCell"]
+- !private ["So21UIAppearanceContainerP", "usersRef"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Auth"]
+- ["So18UIContentContainerP", "Database"]
+- !private ["So18UIContentContainerP", "IndexPath"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "currentUsers"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "userCell"]
+- !private ["So18UIContentContainerP", "usersRef"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "deleteRows"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "insertRows"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So23UIDataSourceTranslatingP", "deleteRows"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "insertRows"]
+- !private ["So13UIDynamicItemP", "deleteRows"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "insertRows"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- ["So18UIFocusEnvironmentP", "Database"]
+- !private ["So18UIFocusEnvironmentP", "IndexPath"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "currentUsers"]
+- !private ["So18UIFocusEnvironmentP", "deleteRows"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "insertRows"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "userCell"]
+- !private ["So18UIFocusEnvironmentP", "usersRef"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "deleteRows"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "insertRows"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So20UIFocusItemContainerP", "deleteRows"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "insertRows"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textLabel"]
+- !private ["So30UIFocusItemScrollableContainerP", "deleteRows"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "insertRows"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- ["So30UIPasteConfigurationSupportingP", "Database"]
+- !private ["So30UIPasteConfigurationSupportingP", "IndexPath"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "currentUsers"]
+- !private ["So30UIPasteConfigurationSupportingP", "deleteRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "userCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "usersRef"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "Database"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIStatusBarStyle"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "currentUsers"]
+- !private ["So11UIResponderC", "deleteRows"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "insertRows"]
+- ["So11UIResponderC", "preferredStatusBarStyle"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "signoutButtonPressed"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "userCell"]
+- ["So11UIResponderC", "usersRef"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- ["So30UIResponderStandardEditActionsP", "Database"]
+- !private ["So30UIResponderStandardEditActionsP", "IndexPath"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "currentUsers"]
+- !private ["So30UIResponderStandardEditActionsP", "deleteRows"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "insertRows"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "userCell"]
+- !private ["So30UIResponderStandardEditActionsP", "usersRef"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "deleteRows"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "insertRows"]
+- !private ["So20UIScrollViewDelegateP", "Auth"]
+- ["So20UIScrollViewDelegateP", "Database"]
+- !private ["So20UIScrollViewDelegateP", "IndexPath"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "currentUsers"]
+- !private ["So20UIScrollViewDelegateP", "dismiss"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "userCell"]
+- !private ["So20UIScrollViewDelegateP", "usersRef"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "deleteRows"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "insertRows"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- ["So16UIStateRestoringP", "Database"]
+- !private ["So16UIStateRestoringP", "IndexPath"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "currentUsers"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "userCell"]
+- !private ["So16UIStateRestoringP", "usersRef"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStatusBarStyleV", "lightContent"]
+- !private ["So11UITableViewC", "deleteRows"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "insertRows"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- ["So21UITableViewControllerC", "AnyObject"]
+- !private ["So21UITableViewControllerC", "Auth"]
+- ["So21UITableViewControllerC", "Database"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", "UIStatusBarStyle"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "currentUsers"]
+- !private ["So21UITableViewControllerC", "dismiss"]
+- ["So21UITableViewControllerC", "init"]
+- !private ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "preferredStatusBarStyle"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "signoutButtonPressed"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "userCell"]
+- ["So21UITableViewControllerC", "usersRef"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- !private ["So21UITableViewDataSourceP", "Auth"]
+- ["So21UITableViewDataSourceP", "Database"]
+- !private ["So21UITableViewDataSourceP", "IndexPath"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "currentUsers"]
+- !private ["So21UITableViewDataSourceP", "dismiss"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "userCell"]
+- !private ["So21UITableViewDataSourceP", "usersRef"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- !private ["So19UITableViewDelegateP", "Auth"]
+- ["So19UITableViewDelegateP", "Database"]
+- !private ["So19UITableViewDelegateP", "IndexPath"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "currentUsers"]
+- !private ["So19UITableViewDelegateP", "dismiss"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "userCell"]
+- !private ["So19UITableViewDelegateP", "usersRef"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- ["So18UITraitEnvironmentP", "Database"]
+- !private ["So18UITraitEnvironmentP", "IndexPath"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "currentUsers"]
+- !private ["So18UITraitEnvironmentP", "deleteRows"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "insertRows"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "userCell"]
+- !private ["So18UITraitEnvironmentP", "usersRef"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- ["So23UIUserActivityRestoringP", "Database"]
+- !private ["So23UIUserActivityRestoringP", "IndexPath"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "currentUsers"]
+- !private ["So23UIUserActivityRestoringP", "deleteRows"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "insertRows"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "tableView"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textLabel"]
+- !private ["So23UIUserActivityRestoringP", "userCell"]
+- !private ["So23UIUserActivityRestoringP", "usersRef"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "deleteRows"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "insertRows"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textLabel"]
+- ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "Database"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIStatusBarStyle"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "currentUsers"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "preferredStatusBarStyle"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "signoutButtonPressed"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "userCell"]
+- ["So16UIViewControllerC", "usersRef"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So7FIRUserC", "uid"]
+- !private ["So11FIRUserInfoP", "uid"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUsers"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usersRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "deleteRows"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insertRows"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "deleteRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "insertRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+depends-nominal:
+- !private "Sa"
+- !private "So7FIRAuthC"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So16FIRDataEventTypeV"
+- !private "10Foundation12DataProtocolP"
+- !private "So15FIRDataSnapshotC"
+- "So11FIRDatabaseC"
+- !private "So16FIRDatabaseQueryC"
+- !private "So20FIRDatabaseReferenceC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "2Do30OnlineUsersTableViewControllerC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So23UITableViewRowAnimationV"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So16UIStatusBarStyleV"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So7FIRUserC"
+- !private "So11FIRUserInfoP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserMetadata.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthAPNSTokenType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FirebaseCore.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthUIDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRLoggerLevel.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuthVersion.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAdditionalUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIROAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRActionCodeSettings.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthDataResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRCoreSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e9202afe1ef870fed113eb7ebab8457"

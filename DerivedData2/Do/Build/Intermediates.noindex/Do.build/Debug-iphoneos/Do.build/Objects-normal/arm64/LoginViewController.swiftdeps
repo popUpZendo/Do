@@ -1,0 +1,1013 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "2Do19LoginViewControllerC"
+provides-member:
+- ["2Do19LoginViewControllerC", ""]
+provides-dynamic-lookup:
+- "loginDidTouch"
+- "preferredStatusBarStyle"
+- "signUpDidTouch"
+- "textFieldLoginEmail"
+- "textFieldLoginPassword"
+- "textFieldShouldReturn"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- "AnyObject"
+- !private "AssignmentPrecedence"
+- !private "Auth"
+- "Bool"
+- "LoginViewController"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIStatusBarStyle"
+- "UITextField"
+- "UITextFieldDelegate"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["So7FIRAuthC", "addStateDidChangeListener"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "createUser"]
+- !private ["So7FIRAuthC", "signIn"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "becomeFirstResponder"]
+- !private ["So15CALayerDelegateP", "isSecureTextEntry"]
+- !private ["So15CALayerDelegateP", "placeholder"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "addStateDidChangeListener"]
+- !private ["s7CVarArgP", "addTextField"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createUser"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSecureTextEntry"]
+- !private ["s7CVarArgP", "loginToList"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "placeholder"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "textField"]
+- ["s7CVarArgP", "textFieldDidBeginEditing"]
+- ["s7CVarArgP", "textFieldDidEndEditing"]
+- !private ["s7CVarArgP", "textFieldLoginEmail"]
+- !private ["s7CVarArgP", "textFieldLoginPassword"]
+- ["s7CVarArgP", "textFieldShouldBeginEditing"]
+- ["s7CVarArgP", "textFieldShouldClear"]
+- ["s7CVarArgP", "textFieldShouldEndEditing"]
+- ["s7CVarArgP", "textFieldShouldReturn"]
+- !private ["s7CVarArgP", "textFields"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "addStateDidChangeListener"]
+- !private ["s28CustomDebugStringConvertibleP", "addTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSecureTextEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "loginToList"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholder"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "textField"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidEndEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "textFieldLoginEmail"]
+- !private ["s28CustomDebugStringConvertibleP", "textFieldLoginPassword"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldClear"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s28CustomDebugStringConvertibleP", "textFields"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "becomeFirstResponder"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "addStateDidChangeListener"]
+- !private ["s23CustomStringConvertibleP", "addTextField"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSecureTextEntry"]
+- !private ["s23CustomStringConvertibleP", "loginToList"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "placeholder"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "textField"]
+- ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldDidEndEditing"]
+- !private ["s23CustomStringConvertibleP", "textFieldLoginEmail"]
+- !private ["s23CustomStringConvertibleP", "textFieldLoginPassword"]
+- ["s23CustomStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldClear"]
+- ["s23CustomStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s23CustomStringConvertibleP", "textFields"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "becomeFirstResponder"]
+- !private ["Se", "count"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["SE", "becomeFirstResponder"]
+- !private ["SE", "count"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SQ", "Auth"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "addStateDidChangeListener"]
+- !private ["SQ", "addTextField"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "becomeFirstResponder"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createUser"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSecureTextEntry"]
+- !private ["SQ", "lightContent"]
+- !private ["SQ", "loginToList"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "placeholder"]
+- !private ["SQ", "present"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "signIn"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- ["SQ", "textField"]
+- ["SQ", "textFieldDidBeginEditing"]
+- ["SQ", "textFieldDidEndEditing"]
+- !private ["SQ", "textFieldLoginEmail"]
+- !private ["SQ", "textFieldLoginPassword"]
+- ["SQ", "textFieldShouldBeginEditing"]
+- ["SQ", "textFieldShouldClear"]
+- ["SQ", "textFieldShouldEndEditing"]
+- ["SQ", "textFieldShouldReturn"]
+- !private ["SQ", "textFields"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s23ExpressibleByNilLiteralP", "becomeFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["SH", "Auth"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "addStateDidChangeListener"]
+- !private ["SH", "addTextField"]
+- !private ["SH", "alert"]
+- !private ["SH", "auth"]
+- !private ["SH", "becomeFirstResponder"]
+- !private ["SH", "cancel"]
+- !private ["SH", "count"]
+- !private ["SH", "createUser"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isSecureTextEntry"]
+- !private ["SH", "lightContent"]
+- !private ["SH", "loginToList"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "placeholder"]
+- !private ["SH", "present"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "signIn"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- ["SH", "textField"]
+- ["SH", "textFieldDidBeginEditing"]
+- ["SH", "textFieldDidEndEditing"]
+- !private ["SH", "textFieldLoginEmail"]
+- !private ["SH", "textFieldLoginPassword"]
+- ["SH", "textFieldShouldBeginEditing"]
+- ["SH", "textFieldShouldClear"]
+- ["SH", "textFieldShouldEndEditing"]
+- ["SH", "textFieldShouldReturn"]
+- !private ["SH", "textFields"]
+- !private ["SH", "viewDidLoad"]
+- ["2Do19LoginViewControllerC", "AnyObject"]
+- !private ["2Do19LoginViewControllerC", "Auth"]
+- ["2Do19LoginViewControllerC", "Bool"]
+- !private ["2Do19LoginViewControllerC", "UIAlertAction"]
+- !private ["2Do19LoginViewControllerC", "UIAlertController"]
+- ["2Do19LoginViewControllerC", "UIStatusBarStyle"]
+- ["2Do19LoginViewControllerC", "UITextField"]
+- ["2Do19LoginViewControllerC", "deinit"]
+- ["2Do19LoginViewControllerC", "init"]
+- ["2Do19LoginViewControllerC", "loginDidTouch"]
+- ["2Do19LoginViewControllerC", "loginToList"]
+- !private ["2Do19LoginViewControllerC", "performSegue"]
+- ["2Do19LoginViewControllerC", "preferredStatusBarStyle"]
+- !private ["2Do19LoginViewControllerC", "present"]
+- ["2Do19LoginViewControllerC", "signUpDidTouch"]
+- ["2Do19LoginViewControllerC", "textField"]
+- ["2Do19LoginViewControllerC", "textFieldDidBeginEditing"]
+- ["2Do19LoginViewControllerC", "textFieldDidEndEditing"]
+- ["2Do19LoginViewControllerC", "textFieldLoginEmail"]
+- ["2Do19LoginViewControllerC", "textFieldLoginPassword"]
+- ["2Do19LoginViewControllerC", "textFieldShouldBeginEditing"]
+- ["2Do19LoginViewControllerC", "textFieldShouldClear"]
+- ["2Do19LoginViewControllerC", "textFieldShouldEndEditing"]
+- ["2Do19LoginViewControllerC", "textFieldShouldReturn"]
+- ["2Do19LoginViewControllerC", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "addTextField"]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isSecureTextEntry"]
+- !private ["So8NSCodingP", "loginToList"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "placeholder"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "resignFirstResponder"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "textField"]
+- ["So8NSCodingP", "textFieldDidBeginEditing"]
+- ["So8NSCodingP", "textFieldDidEndEditing"]
+- !private ["So8NSCodingP", "textFieldLoginEmail"]
+- !private ["So8NSCodingP", "textFieldLoginPassword"]
+- ["So8NSCodingP", "textFieldShouldBeginEditing"]
+- ["So8NSCodingP", "textFieldShouldClear"]
+- ["So8NSCodingP", "textFieldShouldEndEditing"]
+- ["So8NSCodingP", "textFieldShouldReturn"]
+- !private ["So8NSCodingP", "textFields"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "addTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loginToList"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- ["So26NSExtensionRequestHandlingP", "textField"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidEndEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "textFieldLoginEmail"]
+- !private ["So26NSExtensionRequestHandlingP", "textFieldLoginPassword"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldClear"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldReturn"]
+- !private ["So26NSExtensionRequestHandlingP", "textFields"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UIStatusBarStyle"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "addStateDidChangeListener"]
+- !private ["So8NSObjectC", "addTextField"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "createUser"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSecureTextEntry"]
+- ["So8NSObjectC", "loginDidTouch"]
+- ["So8NSObjectC", "loginToList"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "placeholder"]
+- ["So8NSObjectC", "preferredStatusBarStyle"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
+- !private ["So8NSObjectC", "signIn"]
+- ["So8NSObjectC", "signUpDidTouch"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textField"]
+- ["So8NSObjectC", "textFieldDidBeginEditing"]
+- ["So8NSObjectC", "textFieldDidEndEditing"]
+- ["So8NSObjectC", "textFieldLoginEmail"]
+- ["So8NSObjectC", "textFieldLoginPassword"]
+- ["So8NSObjectC", "textFieldShouldBeginEditing"]
+- ["So8NSObjectC", "textFieldShouldClear"]
+- ["So8NSObjectC", "textFieldShouldEndEditing"]
+- ["So8NSObjectC", "textFieldShouldReturn"]
+- !private ["So8NSObjectC", "textFields"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Auth"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "addStateDidChangeListener"]
+- !private ["So8NSObjectP", "addTextField"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "becomeFirstResponder"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "createUser"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSecureTextEntry"]
+- !private ["So8NSObjectP", "loginToList"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "placeholder"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "resignFirstResponder"]
+- !private ["So8NSObjectP", "signIn"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "textField"]
+- ["So8NSObjectP", "textFieldDidBeginEditing"]
+- ["So8NSObjectP", "textFieldDidEndEditing"]
+- !private ["So8NSObjectP", "textFieldLoginEmail"]
+- !private ["So8NSObjectP", "textFieldLoginPassword"]
+- ["So8NSObjectP", "textFieldShouldBeginEditing"]
+- ["So8NSObjectP", "textFieldShouldClear"]
+- ["So8NSObjectP", "textFieldShouldEndEditing"]
+- ["So8NSObjectP", "textFieldShouldReturn"]
+- !private ["So8NSObjectP", "textFields"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So8NSStringC", "count"]
+- !private ["Sq", "becomeFirstResponder"]
+- !private ["Sq", "text"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "alert"]
+- !private ["SY", "cancel"]
+- !private ["SY", "default"]
+- !private ["SY", "lightContent"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["SS", "count"]
+- !private ["Sy", "count"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["So29UIAccessibilityIdentificationP", "becomeFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "isSecureTextEntry"]
+- !private ["So29UIAccessibilityIdentificationP", "placeholder"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "addTextField"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So17UIAlertControllerC", "textFields"]
+- !private ["So12UIAppearanceP", "becomeFirstResponder"]
+- !private ["So12UIAppearanceP", "isSecureTextEntry"]
+- !private ["So12UIAppearanceP", "placeholder"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "addTextField"]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isSecureTextEntry"]
+- !private ["So21UIAppearanceContainerP", "loginToList"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "placeholder"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "resignFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "textField"]
+- ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldDidEndEditing"]
+- !private ["So21UIAppearanceContainerP", "textFieldLoginEmail"]
+- !private ["So21UIAppearanceContainerP", "textFieldLoginPassword"]
+- ["So21UIAppearanceContainerP", "textFieldShouldBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldClear"]
+- ["So21UIAppearanceContainerP", "textFieldShouldEndEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldReturn"]
+- !private ["So21UIAppearanceContainerP", "textFields"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "addTextField"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loginToList"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "present"]
+- ["So18UIContentContainerP", "textField"]
+- ["So18UIContentContainerP", "textFieldDidBeginEditing"]
+- ["So18UIContentContainerP", "textFieldDidEndEditing"]
+- !private ["So18UIContentContainerP", "textFieldLoginEmail"]
+- !private ["So18UIContentContainerP", "textFieldLoginPassword"]
+- ["So18UIContentContainerP", "textFieldShouldBeginEditing"]
+- ["So18UIContentContainerP", "textFieldShouldClear"]
+- ["So18UIContentContainerP", "textFieldShouldEndEditing"]
+- ["So18UIContentContainerP", "textFieldShouldReturn"]
+- !private ["So18UIContentContainerP", "textFields"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "becomeFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isSecureTextEntry"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "placeholder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "becomeFirstResponder"]
+- !private ["So9UIControlC", "isSecureTextEntry"]
+- !private ["So9UIControlC", "placeholder"]
+- !private ["So9UIControlC", "resignFirstResponder"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "becomeFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "isSecureTextEntry"]
+- !private ["So17UICoordinateSpaceP", "placeholder"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "becomeFirstResponder"]
+- !private ["So13UIDynamicItemP", "isSecureTextEntry"]
+- !private ["So13UIDynamicItemP", "placeholder"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "addTextField"]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isSecureTextEntry"]
+- !private ["So18UIFocusEnvironmentP", "loginToList"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "placeholder"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "resignFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "textField"]
+- ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldDidEndEditing"]
+- !private ["So18UIFocusEnvironmentP", "textFieldLoginEmail"]
+- !private ["So18UIFocusEnvironmentP", "textFieldLoginPassword"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldClear"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UIFocusEnvironmentP", "textFields"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "becomeFirstResponder"]
+- !private ["So11UIFocusItemP", "isSecureTextEntry"]
+- !private ["So11UIFocusItemP", "placeholder"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "becomeFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "isSecureTextEntry"]
+- !private ["So20UIFocusItemContainerP", "placeholder"]
+- !private ["So20UIFocusItemContainerP", "resignFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "becomeFirstResponder"]
+- !private ["So10UIKeyInputP", "isSecureTextEntry"]
+- !private ["So10UIKeyInputP", "placeholder"]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSecureTextEntry"]
+- !private ["So30UIPasteConfigurationSupportingP", "loginToList"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "placeholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "textField"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidEndEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "textFieldLoginEmail"]
+- !private ["So30UIPasteConfigurationSupportingP", "textFieldLoginPassword"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldClear"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldReturn"]
+- !private ["So30UIPasteConfigurationSupportingP", "textFields"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UIStatusBarStyle"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "addTextField"]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isSecureTextEntry"]
+- ["So11UIResponderC", "loginDidTouch"]
+- ["So11UIResponderC", "loginToList"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "placeholder"]
+- ["So11UIResponderC", "preferredStatusBarStyle"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
+- ["So11UIResponderC", "signUpDidTouch"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textField"]
+- ["So11UIResponderC", "textFieldDidBeginEditing"]
+- ["So11UIResponderC", "textFieldDidEndEditing"]
+- ["So11UIResponderC", "textFieldLoginEmail"]
+- ["So11UIResponderC", "textFieldLoginPassword"]
+- ["So11UIResponderC", "textFieldShouldBeginEditing"]
+- ["So11UIResponderC", "textFieldShouldClear"]
+- ["So11UIResponderC", "textFieldShouldEndEditing"]
+- ["So11UIResponderC", "textFieldShouldReturn"]
+- !private ["So11UIResponderC", "textFields"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "addTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isSecureTextEntry"]
+- !private ["So30UIResponderStandardEditActionsP", "loginToList"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "placeholder"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "textField"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidEndEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "textFieldLoginEmail"]
+- !private ["So30UIResponderStandardEditActionsP", "textFieldLoginPassword"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldClear"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldReturn"]
+- !private ["So30UIResponderStandardEditActionsP", "textFields"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTextField"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "textFields"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "addTextField"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loginToList"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "present"]
+- ["So16UIStateRestoringP", "textField"]
+- ["So16UIStateRestoringP", "textFieldDidBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldDidEndEditing"]
+- !private ["So16UIStateRestoringP", "textFieldLoginEmail"]
+- !private ["So16UIStateRestoringP", "textFieldLoginPassword"]
+- ["So16UIStateRestoringP", "textFieldShouldBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldClear"]
+- ["So16UIStateRestoringP", "textFieldShouldEndEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldReturn"]
+- !private ["So16UIStateRestoringP", "textFields"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStatusBarStyleV", "lightContent"]
+- !private ["So15UITextDraggableP", "becomeFirstResponder"]
+- !private ["So15UITextDraggableP", "isSecureTextEntry"]
+- !private ["So15UITextDraggableP", "placeholder"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "becomeFirstResponder"]
+- !private ["So15UITextDroppableP", "isSecureTextEntry"]
+- !private ["So15UITextDroppableP", "placeholder"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "becomeFirstResponder"]
+- !private ["So11UITextFieldC", "isSecureTextEntry"]
+- !private ["So11UITextFieldC", "placeholder"]
+- !private ["So11UITextFieldC", "resignFirstResponder"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So19UITextFieldDelegateP", "Auth"]
+- !private ["So19UITextFieldDelegateP", "UIAlertAction"]
+- !private ["So19UITextFieldDelegateP", "UIAlertController"]
+- ["So19UITextFieldDelegateP", ""]
+- !private ["So19UITextFieldDelegateP", "loginToList"]
+- !private ["So19UITextFieldDelegateP", "performSegue"]
+- !private ["So19UITextFieldDelegateP", "present"]
+- ["So19UITextFieldDelegateP", "textField"]
+- ["So19UITextFieldDelegateP", "textFieldDidBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldDidEndEditing"]
+- !private ["So19UITextFieldDelegateP", "textFieldLoginEmail"]
+- !private ["So19UITextFieldDelegateP", "textFieldLoginPassword"]
+- ["So19UITextFieldDelegateP", "textFieldShouldBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldClear"]
+- ["So19UITextFieldDelegateP", "textFieldShouldEndEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldReturn"]
+- !private ["So11UITextInputP", "becomeFirstResponder"]
+- !private ["So11UITextInputP", "isSecureTextEntry"]
+- !private ["So11UITextInputP", "placeholder"]
+- !private ["So11UITextInputP", "resignFirstResponder"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "becomeFirstResponder"]
+- !private ["So17UITextInputTraitsP", "isSecureTextEntry"]
+- !private ["So17UITextInputTraitsP", "placeholder"]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "isSecureTextEntry"]
+- !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "addTextField"]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isSecureTextEntry"]
+- !private ["So18UITraitEnvironmentP", "loginToList"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "placeholder"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "resignFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "textField"]
+- ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldDidEndEditing"]
+- !private ["So18UITraitEnvironmentP", "textFieldLoginEmail"]
+- !private ["So18UITraitEnvironmentP", "textFieldLoginPassword"]
+- ["So18UITraitEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldClear"]
+- ["So18UITraitEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UITraitEnvironmentP", "textFields"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "addTextField"]
+- !private ["So23UIUserActivityRestoringP", "becomeFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isSecureTextEntry"]
+- !private ["So23UIUserActivityRestoringP", "loginToList"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "placeholder"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "textField"]
+- ["So23UIUserActivityRestoringP", "textFieldDidBeginEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldDidEndEditing"]
+- !private ["So23UIUserActivityRestoringP", "textFieldLoginEmail"]
+- !private ["So23UIUserActivityRestoringP", "textFieldLoginPassword"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldBeginEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldClear"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldEndEditing"]
+- ["So23UIUserActivityRestoringP", "textFieldShouldReturn"]
+- !private ["So23UIUserActivityRestoringP", "textFields"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "becomeFirstResponder"]
+- !private ["So6UIViewC", "isSecureTextEntry"]
+- !private ["So6UIViewC", "placeholder"]
+- !private ["So6UIViewC", "resignFirstResponder"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UIStatusBarStyle"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "addTextField"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginDidTouch"]
+- ["So16UIViewControllerC", "loginToList"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "preferredStatusBarStyle"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "signUpDidTouch"]
+- ["So16UIViewControllerC", "textField"]
+- ["So16UIViewControllerC", "textFieldDidBeginEditing"]
+- ["So16UIViewControllerC", "textFieldDidEndEditing"]
+- ["So16UIViewControllerC", "textFieldLoginEmail"]
+- ["So16UIViewControllerC", "textFieldLoginPassword"]
+- ["So16UIViewControllerC", "textFieldShouldBeginEditing"]
+- ["So16UIViewControllerC", "textFieldShouldClear"]
+- ["So16UIViewControllerC", "textFieldShouldEndEditing"]
+- ["So16UIViewControllerC", "textFieldShouldReturn"]
+- !private ["So16UIViewControllerC", "textFields"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStateDidChangeListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSecureTextEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginToList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidEndEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textFieldLoginEmail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textFieldLoginPassword"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldClear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldReturn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textFields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "becomeFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "becomeFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isSecureTextEntry"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "placeholder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "Sa"
+- !private "So7FIRAuthC"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "2Do19LoginViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So16UIStatusBarStyleV"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- "So19UITextFieldDelegateP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserMetadata.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthAPNSTokenType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FirebaseCore.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthUIDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRLoggerLevel.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuthVersion.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAdditionalUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIROAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRActionCodeSettings.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthDataResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRCoreSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "eaac5cbe260b0f66932e50fdbc5f8c7a"

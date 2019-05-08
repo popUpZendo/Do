@@ -1,0 +1,173 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroceryItem"
+provides-nominal:
+- "2Do11GroceryItemV"
+provides-member:
+- ["2Do11GroceryItemV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "DataSnapshot"
+- "DatabaseReference"
+- "GroceryItem"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "ref"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "value"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "ref"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "ref"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["So15FIRDataSnapshotC", "key"]
+- !private ["So15FIRDataSnapshotC", "ref"]
+- !private ["So15FIRDataSnapshotC", "value"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "key"]
+- !private ["SQ", "ref"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["2Do11GroceryItemV", "AnyObject"]
+- ["2Do11GroceryItemV", "Bool"]
+- ["2Do11GroceryItemV", "DataSnapshot"]
+- ["2Do11GroceryItemV", "DatabaseReference"]
+- ["2Do11GroceryItemV", "String"]
+- ["2Do11GroceryItemV", "addedByUser"]
+- ["2Do11GroceryItemV", "completed"]
+- ["2Do11GroceryItemV", "init"]
+- ["2Do11GroceryItemV", "key"]
+- ["2Do11GroceryItemV", "name"]
+- ["2Do11GroceryItemV", "ref"]
+- ["2Do11GroceryItemV", "toAnyObject"]
+- !private ["SH", "key"]
+- !private ["SH", "ref"]
+- !private ["SH", "subscript"]
+- !private ["SH", "value"]
+- !private ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "ref"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "key"]
+- !private ["So8NSObjectP", "ref"]
+- !private ["So8NSObjectP", "value"]
+- !private ["ST", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ref"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "So15FIRDataSnapshotC"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "2Do11GroceryItemV"
+- !private "SH"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "ST"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserMetadata.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthAPNSTokenType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FirebaseCore.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthUIDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthCredential.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRLoggerLevel.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuthVersion.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAdditionalUserInfo.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIROAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRPhoneAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRActionCodeSettings.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthDataResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRCoreSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/josephhall/Desktop/Do/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/josephhall/Desktop/Do/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "715faf8b4a9207bcbb795c11cade3b9e"

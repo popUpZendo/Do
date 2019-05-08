@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Foundation</string>
+	<string>Firebase</string>
+	<string>FirebaseInstanceID</string>
+	<string>FirebaseFirestore</string>
+	<string>GoogleMobileAds</string>
+	<string>FirebaseDatabase</string>
+	<string>Fabric</string>
+	<string>FirebaseAnalytics</string>
+	<string>sys</string>
+	<string>UIKit</string>
+	<string>FirebasePerformance</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>Crashlytics</string>
+	<string>WatchKit</string>
+	<string>FirebaseAuth</string>
+	<string>FirebaseCrash</string>
+	<string>FirebaseMessaging</string>
+	<string>FirebaseCore</string>
+	<string>FirebaseInvites</string>
+	<string>FirebaseStorage</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>FirebaseAppIndexing</string>
+</array>
+</plist>
